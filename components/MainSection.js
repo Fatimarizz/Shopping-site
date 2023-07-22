@@ -29,7 +29,7 @@ export default function MainSection() {
                 </div>
               </Carousel>
             </div>
-           git
+           
             <div aria-hidden="true" className="absolute inset-0 bg-gray-900 bg-opacity-50" />
             {/* Content */}
             <div className="relative mx-auto flex max-w-3xl flex-col items-center text-center">
