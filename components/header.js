@@ -346,7 +346,7 @@ export default function Header() {
                       onClick={() => setMobileMenuOpen(true)}
                     >
                       <span className="sr-only">Open menu</span>
-                      <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+                      <Bars3Icon className="h-6 w-6 " aria-hidden="true" />
                     </button>
                     {/* Search */}
                     <a href="#" className="ml-2 p-2 text-gray-400 hover:text-gray-500">
@@ -365,14 +365,14 @@ export default function Header() {
                     {/* Wishlist icon */}
                     <a href="#" className="text-gray-400 hover:text-gray-500">
                       <span className="sr-only">Wishlist</span>
-                      <HeartIcon className="h-6 w-6" aria-hidden="true" />
+                      <HeartIcon className="h-6 w-6 text-blue-500" aria-hidden="true" />
                     </a>
                     <span className="mx-4 h-6 w-px bg-gray-200" aria-hidden="true" />
 
                     {/* Cart */}
                     <a href="#" className="text-gray-400 hover:text-gray-500 flex ">
                       <span className="sr-only">Cart</span>
-                      <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
+                      <ShoppingCartIcon className="h-6 w-6 text-blue-500" aria-hidden="true" />
                       <span className="ml-2 text-sm font-medium text-gray-700">0</span>
                     
                     </a>
@@ -382,7 +382,7 @@ export default function Header() {
                     <span className="mx-4 h-6 w-px bg-gray-200" aria-hidden="true" />
                     <a href="#" className="text-gray-400 hover:text-gray-500 ">
                       <span className="sr-only">Account</span>
-                      <UserIcon className="h-6 w-6" aria-hidden="true" />
+                      <UserIcon className="h-6 w-6 text-blue-500" aria-hidden="true" />
                     </a>
                     </div>
                   </div>
